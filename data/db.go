@@ -3,6 +3,7 @@ package data
 import (
 	"fmt"
 	"os"
+	"strings"
 )
 
 //SaveToFile receives the messages and saves to file
@@ -12,5 +13,5 @@ func SaveToFile(messages []string) {
 		fmt.Println(err)
 	}
 
-	file.WriteString(messages)
+	file.WriteString(strings.Join(messages, "\n"))
 }
