@@ -3,7 +3,7 @@ package amqp
 import (
 	"log"
 
-	"github.com/andreposman/zipode-receiver/data"
+	"github.com/andreposman/zipcode-receiver/data"
 
 	"github.com/streadway/amqp"
 )

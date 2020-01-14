@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/andreposman/zipode-receiver/pkg/amqp"
+	"github.com/andreposman/zipcode-receiver/pkg/amqp"
 )
 
 func main() {
